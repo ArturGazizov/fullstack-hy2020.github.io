@@ -22,6 +22,13 @@ Let's install the library with the command:
 npm install --save-dev @testing-library/react @testing-library/jest-dom
 ```
 
+Let's change package.json to test react instead of back-end
+
+
+
+```"test": "react-scripts test",
+```
+
 
 Let's first write tests for the component that is responsible for rendering a note:
 
