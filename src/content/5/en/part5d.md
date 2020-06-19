@@ -91,7 +91,7 @@ Let's add an npm-script to <i>the backend</i> which starts it in test mode, or s
 ```
 
 <!-- Kun backend ja frontend ovat käynnissä, voidaan käynnistää Cypress komennolla -->
-When both backend and frontend are running, we can start Cypress with the command
+When both backend and frontend are running with command ```npm run start:test``` and ```npm start``` respectively, we can start Cypress with the command
 
 ```js
 npm run cypress:open
